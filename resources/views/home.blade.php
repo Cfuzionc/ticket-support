@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('Ticket') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -26,7 +26,7 @@
                         <div class="form-group">
                             <label for="exampleFormControlFile1">Add screenshot / video <b>(optional)<b></label>
                             <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                            <button type="submit" class="btn btn-primary ticket_submit">Submit</button>
+                            <button type="submit" class="btn btn-primary ticket_submit">Create Ticket</button>
                           </div>
 
                       </form>
